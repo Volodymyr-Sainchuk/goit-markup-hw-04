@@ -1,0 +1,438 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+.main-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #e7e9fc;
+  transition: relative;
+}
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+.logo_highlited {
+  color: #2e2f42;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: left;
+  text-transform: uppercase;
+}
+.header {
+  color: #4d5ae5;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: left;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: flex-start;
+  margin-right: 76px;
+}
+.first-div {
+  display: flex;
+}
+.header-studio {
+  color: #2e2f42;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 2em;
+  text-align: left;
+}
+.address-link {
+  color: #434455;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: left;
+  padding: 24px 0;
+}
+.address-link:hover,
+.address-link:focus {
+  color: #404bbf;
+}
+.main-section {
+  position: relative;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  max-width: 496px;
+  margin: 0 auto 48px;
+}
+.main {
+  background-color: #2e2f42;
+  text-align: center;
+  padding: 188px 0;
+  background-image: url(/images/people-office-1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: inset;
+  position: relative;
+}
+.section-btn {
+  position: relative;
+  background-color: #4d5ae5;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  border-radius: 4px;
+  margin: 0 auto;
+  max-width: 169px;
+  border: none;
+  height: 56px;
+  display: block;
+  min-width: 169px;
+}
+.section-btn:hover,
+.section-btn:focus {
+  background-color: #404bbf;
+}
+.main-section-list {
+  display: flex;
+  gap: 24px;
+}
+.main-list-info {
+  display: flex;
+  justify-content: center;
+  padding: 120px 0;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.second-section-items-block {
+  position: relative;
+  width: 264px;
+  height: 112px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  background-color: #f4f4fd;
+  margin-bottom: 8px;
+}
+.second-section-icons {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.main-list {
+  color: #2e2f42;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: left;
+  margin-bottom: 8px;
+}
+.main-list-text {
+  color: #434455;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: left;
+  max-width: 264px;
+}
+.photo-section {
+  background-color: #f4f4fd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 72px;
+  padding: 120px 0;
+}
+.photo-section-icons-container {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.team {
+  /* Header 2 */
+  color: #2e2f42;
+  font-family: Roboto;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 72px;
+}
+.team-list {
+  background-color: #f4f4fd;
+  display: flex;
+  gap: 24px;
+}
+.portfolio-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 72px;
+  padding: 120px 0;
+}
+.portfolio-section-imgs {
+  position: relative;
+  overflow: hidden;
+}
+.hiden-text-portfolio {
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* padding-top: 40px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 164px; */
+  background-color: #4d5ae5;
+  /* max-height: 300px; */
+  height: 100%;
+  color: #f4f4fd;
+  transform: translateY(100%);
+  transition: transform 300ms linear;
+}
+.img-wrap {
+  position: relative;
+  overflow: hidden;
+}
+.hiden-text-portfolio:hover {
+  /* transform: translateY(100%); */
+}
+.portfolio-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.portfolio-list-items {
+  width: calc((100% - 48px) / 3);
+}
+.portfolio-list-items:hover .hiden-text-portfolio {
+  transform: translateY(0);
+  transition: transform 300px linear;
+}
+.portfolio-list-items-content {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+.main-list-portfolio {
+  color: #2e2f42;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: left;
+  margin-bottom: 8px;
+}
+.main-list-text-portfolio {
+  color: #434455;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+.team-item-first-content {
+  padding: 32px 0;
+}
+.team-items {
+  color: #2e2f42;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.team-items-text {
+  color: #434455;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  padding-bottom: 8px;
+}
+.footer {
+  background-color: #2e2f42;
+}
+.footer-logo {
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.footer-text {
+  color: #f4f4fd;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+.header-link-item {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  padding: 24px 0;
+}
+.header-link-item:hover::before {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 100%;
+  height: 4px;
+  background-color: #404bbf;
+  bottom: 0;
+  left: 0;
+  border-radius: 2px;
+}
+.header-link-item:hover {
+  color: #404bbf;
+}
+.header-link-item:focus {
+  color: #404bbf;
+}
+.address {
+  font-style: normal;
+  display: flex;
+  gap: 40px;
+}
+.footer-logo_highlited {
+  color: #f4f4fd;
+}
+.hero {
+  font-style: normal;
+}
+.team-item-first {
+  background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
+}
+.header-link {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  justify-content: flex-end;
+}
+.header-list-item {
+  padding: 24px 0;
+  position: relative;
+}
+.footer-logo {
+  display: flex;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+.footer-text {
+  max-width: 264px;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.footer-section-icons {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0;
+}
+.main::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: #2e2f42b2;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
