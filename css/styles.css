@@ -216,7 +216,6 @@ body {
   max-width: 264px;
 }
 .photo-section {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   background-color: #f4f4fd;
   display: flex;
   flex-direction: column;
@@ -237,6 +236,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .photo-icons-container-link:hover {
   background-color: #404bbf;
@@ -297,6 +297,10 @@ body {
   color: #f4f4fd;
   transform: translateY(100%);
   transition: transform 300ms linear;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  padding: 40px 32px;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .img-wrap {
   position: relative;
@@ -315,6 +319,9 @@ body {
 .portfolio-list-items {
   width: calc((100% - 48px) / 3);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.portfolio-list-items:hover {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .portfolio-list-items:hover .hiden-text-portfolio {
   transform: translateY(0);
@@ -423,6 +430,7 @@ body {
   font-style: normal;
 }
 .team-item-first {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
 }
@@ -498,6 +506,8 @@ body {
 }
 .footer-icons-list-items {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  width: 40px;
+  height: 40px;
 }
 .footer-section-icons:hover {
   background-color: #31d0aa;
