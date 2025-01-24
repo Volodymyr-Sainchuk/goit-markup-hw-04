@@ -225,6 +225,28 @@ body {
   gap: 72px;
   padding: 120px 0;
 }
+.photo-icons-container-list {
+  width: 40px;
+  height: 40px;
+}
+.photo-icons-container-link {
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.photo-icons-container-link:hover {
+  background-color: #404bbf;
+}
+.photo-icons-container-link:focus {
+  background-color: #404bbf;
+}
+.photo-section-icons {
+  fill: #f4f4fd;
+}
 .photo-section-icons-container {
   display: flex;
   justify-content: center;
