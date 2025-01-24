@@ -414,7 +414,9 @@ body {
   align-items: baseline;
   margin-right: 120px;
 }
-
+.test {
+  margin-right: 120px;
+}
 .footer-logo {
   display: flex;
   display: inline-block;
