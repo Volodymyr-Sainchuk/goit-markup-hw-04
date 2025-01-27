@@ -449,9 +449,7 @@ body {
 }
 .footer-all-wrap {
   display: flex;
-  gap: 120px;
   align-items: baseline;
-  margin-right: 120px;
   margin: 0 auto;
 }
 .test {
